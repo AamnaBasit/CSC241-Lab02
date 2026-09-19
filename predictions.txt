@@ -1,0 +1,39 @@
+Task 1 Expected Output:
+Before Change:
+Aamna Basit: 15
+Maheen Tajammal:18
+Swera Kamran :12
+
+After Change:
+\
+Aamna Basit: 15
+Maheen Tajammal:21
+Swera Kamran :12
+
+Task 2 Expected Output:
+ID: BAI-001, Name: Aamna Basit, Credits: 15
+After addCredits: ID; BAI-001,Name: Aamna Basit, Credits: 18
+Remaining for s1:112
+ID: BAI-028, Name: Maheen Tajammal, Credits: 18
+Remaing for s2: 112
+
+Task 3 Expected Outputs:
+1 parameters: Add 3 credits
+2 parameters: Added 3 credits from 1 courses
+3 parameters: Added 6 credits with status True.
+
+Task 4 Expected Output:
+ Primitive Experiment 
+Before tryPrimitiveMutation: val = 10
+Inside tryPrimitiveMutation: val = 20
+After tryPrimitiveMutation: val = 10
+
+--- Reference Object Mutation Experiment ---
+Before tryObjectMutation: credits = 15
+Inside tryObjectMutation: credits = 25
+After tryObjectMutation: credits = 25
+
+--- Reference Object Reassignment Experiment ---
+Before tryObjectReassignment: name = Aamna Basit
+Inside tryObjectReassignment: name = Reassigned Name
+After tryObjectReassignment: name = Aamna
